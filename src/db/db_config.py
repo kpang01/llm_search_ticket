@@ -17,3 +17,5 @@ DATABASE_CONFIG = {
     "port": DB_PORT,
     "database": DB_NAME
 }
+
+
