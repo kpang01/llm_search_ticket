@@ -1,19 +1,23 @@
-echo ".env" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo ".vscode/" >> .gitignore
-echo "data/" >> .gitignore
-echo "*.ipynb_checkpoints" >> .gitignore
-echo "logs/" >> .gitignore
-echo "tests/__pycache__/" >> .gitignore
-echo "tests/*.pyc" >> .gitignore
-echo ".env.local" >> .gitignore
-echo "secrets/" >> .gitignore
-echo "db/migrations/" >> .gitignore
-echo "db/__pycache__/" >> .gitignore
-echo "db/*.pyc" >> .gitignore
-echo "coverage/" >> .gitignore
-echo ".pytest_cache/" >> .gitignore
-echo "dist/" >> .gitignore
-echo "build/" >> .gitignore
-echo ".env/" >> .gitignore
+.env
+.env.local
+secrets/
+
+__pycache__/
+*.pyc
+.vscode/
+data/
+*.ipynb_checkpoints
+logs/
+
+tests/__pycache__/
+tests/*.pyc
+
+db/migrations/
+db/__pycache__/
+db/*.pyc
+
+coverage/
+.pytest_cache/
+
+dist/
+build/
